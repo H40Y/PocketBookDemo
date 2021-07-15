@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<meta charset="UTF-8">
+    </head>
+    <body>
+    	只有 Chrome 以及 Safari 6 可以显示这个页面！！！<br>
+    	不是这俩浏览器的快点开！！！<br>
+    	<hr>
+    	<strong>作者快没有时间了，这个界面就随便糊弄下吧！</strong>
+    	<hr>
+        <details>
+        	<summary>联系我？</summary>
+        	<a href="mailto:371335521@qq.com">点击这里发送邮件</a>
+        </details>
+        <hr>
+        <details>
+        	<summary>网站搭建日记</summary>
+        	<p>先不摸鱼了，还有正事要做……</p>
+        </details>
+        <hr>
+        <details>
+        	<summary>路遇坎坷</summary>
+        	<h3>Access denied for user 'root'@'localhost' (using password: YES)</h3>
+        	<p>
+        		1、检查用户名密码是否正确<br>
+				2、检查对应用户的访问权限（localhost、%）<br>
+				3、修改my.ini，启动服务<br>
+				4、服务名不一定是mysql，要参照计算机管理里面的服务名<br>
+        	</p>
+        	
+        	<h3>Before start of result set</h3>
+        	<p>即使确保JDBC只查询到一条语句，也要使用.next()来读取第一条</p>
+        	
+        	<h3>onsubmit</h3>
+        	<p>
+        		表单提交的时候是会触发onsubmit事件的，如果onsubmit事件的方法返回是true，那么该表单允许提交，如果返回的是false，该表单不允许提交。<br>
+				此外，网上复制的内容不一定完全正确（尤其是英文，就算看起来是对的），可能夹带着不同的代码导致运行出错，最好自己手动输入code。
+        	</p>
+        	
+        	<h3>&lt;!DOCTYPE html&gt;</h3>
+        	<p>
+        		HTML5的声明。<br>
+        		除了这个以外的诸如&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;是HTML4及以下版本的声明，用错可能会报错，如“Undefined attribute name (placeholder) ”。
+        	</p>
+        	
+        	<h3>NullPointerException</h3>
+        	<p>
+        		使用JAVA最容易出现的东西，原因可能在于1、未实例化2、值为空就去比较（如equal操作或者==）3、越界<br>
+				第二天再度出现了这个问题，不过原因是表单数据没有接收到。一个表单控件可以定义很多属性，type、id、name、class，getParameter获取的是name，<strong><i>name!!!</i></strong>
+        	</p>
+        	
+        	<h3>method &lt;init&gt;()V not found</h3>
+        	<p>javabean在没有数据的时候调用的是无参的构造函数，所以一旦定义了有参的构造函数，需要补一个无参的构造函数。</p>
+        	
+        	<h3>转义</h3>
+        	<p>就在刚刚遇到了，HTML没有转义，需要用代码表示</p>
+        </details>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/userStyle.css">
+        <title>个人页面</title>
+    </head>
+    <body>
+        <div class="bar">
+            <div class="logo"><a href="index.jsp"><img src="../images/logo.png"></a></div>
+            <div class="head"><a href="userpageCheck.jsp"><img src="../images/head_photo.png"></a></div>
+        </div>
+
+        <div class="leftbox">
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="subpages/record.jsp" target="mainframe">记账</a>
+                    </li>
+                    <li>
+                        <a href="subpages/bill.jsp" target="mainframe">账单</a>
+                    </li>
+                    <li>
+                        <a href="#">统计</a>
+                        <ul>
+                            <li><a href="subpages/statistic/income.jsp" target="mainframe">收入统计</a></li>
+                            <li><a href="subpages/statistic/payout.jsp" target="mainframe">支出统计</a></li>
+                        </ul>
+                    </li>
+                    <li class="line"></li>
+                    <li>
+                        <a href="subpages/setting.jsp" target="mainframe">设置</a>
+                    </li>
+                    <li>
+                        <a href="subpages/help.html" target="mainframe">帮助</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rightbox">
+            <iframe src="subpages/record.jsp" name="mainframe" style="width:100%;height:100%;"></iframe>
+        </div>
+    </body>
+</html>
